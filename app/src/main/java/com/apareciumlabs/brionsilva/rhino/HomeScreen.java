@@ -70,8 +70,6 @@ public class HomeScreen extends AppCompatActivity {
 
                     }
 
-
-
             });
 
         resetBtn.setOnClickListener(new View.OnClickListener(){
