@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">"Rhino Example"</string>
+    <string name="arithmetictHelp">Enter an arithmetic expression in the text box bellow to calculate the answer.</string>
+    <string name="buttonText">FIND ANSWER</string>
+    <string name="answer">Answer</string>
+</resources>
