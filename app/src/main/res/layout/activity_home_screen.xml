@@ -71,4 +71,15 @@
         android:layout_below="@+id/lblAnswer"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp" />
+
+    <TextView
+        android:id="@+id/lblDeveloper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:textAlignment="center"
+        android:text="@string/developer"
+        android:layout_below="@+id/answerBtn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 </RelativeLayout>

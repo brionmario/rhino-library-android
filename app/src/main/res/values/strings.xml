@@ -3,4 +3,5 @@
     <string name="arithmetictHelp">Enter an arithmetic expression in the text box bellow to calculate the answer.</string>
     <string name="buttonText">FIND ANSWER</string>
     <string name="answer">Answer</string>
+    <string name="developer">Developed by Brion Mario &#169; Aparecium Labs 2017 </string>
 </resources>
