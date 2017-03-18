@@ -3,6 +3,7 @@ package com.apareciumlabs.brionsilva.rhino;
 import org.mozilla.javascript.Context;
 import org.mozilla.javascript.Function;
 import org.mozilla.javascript.RhinoException;
+import org.mozilla.javascript.Script;
 import org.mozilla.javascript.Scriptable;
 
 /**
@@ -38,6 +39,8 @@ public class EvaluateEngine {
 
             Object[] functionParams = new Object[]{question};
 
+            String script = "function evaluate(arithmetic){  return eval(arithmetic)    ;} ";
+
             Context rhino = Context.enter();
 
             //disabling the optimizer to better support Android.
@@ -47,10 +50,10 @@ public class EvaluateEngine {
 
                 Scriptable scope = rhino.initStandardObjects();
 
-                rhino.evaluateString(scope, "function Calculer (formule){  return eval(formule)    ;} ", "JavaScript", 1, null);
+                rhino.evaluateString(scope, script , "JavaScript", 1, null);
 
 
-                Function function = (Function) scope.get("Calculer", scope);
+                Function function = (Function) scope.get("evaluate", scope);
 
 
                 answer = (Double) function.call(rhino, scope, scope, functionParams);
@@ -65,6 +68,5 @@ public class EvaluateEngine {
             }
 
     return answer;
-
     }
 }
