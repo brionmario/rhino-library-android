@@ -39,6 +39,7 @@ public class EvaluateEngine {
 
             Object[] functionParams = new Object[]{question};
 
+            //The js function
             String script = "function evaluate(arithmetic){  return eval(arithmetic)    ;} ";
 
             Context rhino = Context.enter();
@@ -50,6 +51,11 @@ public class EvaluateEngine {
 
                 Scriptable scope = rhino.initStandardObjects();
 
+                /**
+                 * evaluateString(Scriptable scope, java.lang.String source, java.lang.String sourceName,
+                 * int lineno, java.lang.Object securityDomain)
+                 *
+                 */
                 rhino.evaluateString(scope, script , "JavaScript", 1, null);
 
 
