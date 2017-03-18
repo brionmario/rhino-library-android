@@ -22,9 +22,9 @@
 <br>
 <h5 align="center">SCREENSHOTS OF THE USER INTERFACE</h5><br>
 <p align="center">
-   <img src="https://cloud.githubusercontent.com/assets/25959096/24070674/0d600a2e-0be8-11e7-9d20-15763c900e19.png" width="350"/> 
+   <img src="https://cloud.githubusercontent.com/assets/25959096/24070745/525137d8-0be9-11e7-9afb-1c4e8edf6981.png" width="350"/> 
 
-   <img src="https://cloud.githubusercontent.com/assets/25959096/24070675/0d607428-0be8-11e7-895e-1acda5ef2153.png" width="350"/> 
+   <img src="https://cloud.githubusercontent.com/assets/25959096/24070746/5253d402-0be9-11e7-8344-32cc46e53977.png" width="350"/> 
 </p>
 <br>
 <h6 align="center">P:S - The credits belong to the original developers. I'm simply using the library here :D </h6>
