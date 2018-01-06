@@ -7,7 +7,7 @@
  
  <p>Rhino is an open-source implementation of JavaScript written entirely in Java. It is typically embedded into Java applications to provide scripting to end users. It is embedded in J2SE 6 as the default Java scripting engine.
  </p><br />
- 
+ <p>Follow my blog Post - <a href="http://brionmario.com/mozilla-rhino-javascript-engine/" target="_blank">http://brionmario.com/mozilla-rhino-javascript-engine/</a></p>
  <p>Download the latest version - <a href="https://mvnrepository.com/artifact/org.mozilla/rhino" target="_blank">https://mvnrepository.com/artifact/org.mozilla/rhino</a>
  </p>
  <p>Visit their GitHub repository - <a href="https://github.com/mozilla/rhino" target="_blank">https://github.com/mozilla/rhino</a>
